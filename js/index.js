@@ -14,7 +14,31 @@ dates.map((date) => {
     
     
     const timelineItemDate = document.createElement("span");
-  });
+    timelineItemDate.className = "timeline-item-date"
+    timelineItemDate.textContent = date.date;
+    document.body.prepend(timelineItemDate);
+    
+
+    const timelineItemSummary = document.createElement("summary");
+    timelineItemSummary.className = "timeline-item-summary"
+    timelineItemSummary.textContent = date.summary;
+    document.body.prepend(timelineItemSummary);
+
+    // when u commented it doesnt work
+    
+    // const timelineItemMoreInfo = document.createElement("timelineitemmoreinfo")
+    // timelineItemMoreInfo.className = "timeline-item-more-info"
+    // timelineItemMoreInfo.textContent = fullDescription;
+    // document.body.prepend(timelineItemMoreInfo);
+    // timelineItemMoreInfo.addEventListener("click", () => setModalData(date));
+
+});
+
+    
+
+
+
+    
 // // 1. Create the element 
 // const timelineItemTitle = document.createElement("h2");
 
@@ -26,6 +50,10 @@ dates.map((date) => {
 
 // // 4. add to the DOM (browser window )
 // document.body.appendChild(timelineItemTitle);
+timelineItemMoreInfo.addEventListener("click", () => setModalData(date));
+timelineItemMoreInfo.addEventListener("click", () => setModalData(date));
+date.setAttribute("id", "date");
+
 
 //  trying to make a button 
   // const button = document.createElement("button");
