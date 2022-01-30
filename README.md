@@ -2,6 +2,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a8f17c9f-a167-4322-a381-863a6196985d/deploy-status)](https://app.netlify.com/sites/lucid-shaw-cfbf76/deploys)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5d471489-0d5d-45d8-9ba8-57c3eb0edb2d/deploy-status)](https://app.netlify.com/sites/lucid-meitner-6794f0/deploys)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4274ef50-1475-4357-9f95-79d733e0506e/deploy-status)](https://app.netlify.com/sites/nervous-chandrasekhar-82fc88/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4906f5fc-68cd-4919-8161-0aef86e1b5d1/deploy-status)](https://app.netlify.com/sites/affectionate-ritchie-e37f87/deploys)
 # JavaScript Assessment
 
 For your unit 3 assessment you are required to work with your study group as an agile team to create an animated interactive timeline for Mayme's Bakery. The interactivity (behaviour/actions) of timeline should be agreed upon by all group members.
