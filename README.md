@@ -74,3 +74,5 @@ All styling (CSS) is completely up to you, but must be in a folder named `css` w
 ## How to submit
 
 You must push all the code to your group project repo.
+# JavaScript-Group-assessment
+# JavaScript-Group-assessment

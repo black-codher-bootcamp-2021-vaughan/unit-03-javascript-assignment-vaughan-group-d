@@ -6,12 +6,10 @@
 
 
 body {
-  background-color: white;
+  background-color: rgb(240, 223, 223);
   
   
 }
-
-
 
 .timeline {
   display:flex;
@@ -27,11 +25,11 @@ align-self: flex-start;
   margin: 20px 60px 60px;
   position: relative;
   padding: 10px 20px;
-  background:#9f6b6b;
-  color: rgb(247 190 25);
+  background:#aa8686;
+  color: rgb(27, 27, 26);
   border-radius: 10px;
   line-height: 20px;
-  width: 35%;
+  width: 40%;
   box-shadow: 0 2px 4px rgb(212, 212, 212);
 
 }
@@ -42,22 +40,31 @@ align-self: flex-end;
 margin: 20px 60px 60px;
   position: relative;
   padding: 10px 20px;
-  background: #fbe7c6; 
-  color: rgb(7 139 127);
+  background:#aa8686; 
+  color: rgb(25, 26, 25);
   border-radius: 10px;
   line-height: 20px;
-  width: 35%
+  width: 40%
 }
 
 
-.timeline::before {
-  content: "";
-  background-color:rgb(129, 4, 25);
-  width: 5px;
-  height: 280%;
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
   position: absolute;
-  left:50%;
-  transform: translateX(-50%);
+  width: 6px;
+  background-color: rgb(20, 17, 17);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
 }
 
 
@@ -87,7 +94,7 @@ h1 {
   justify-content: center;
   font-weight: 300px;
   font-size: 50px;
-  color: rgb(160 11 85);
+  color: rgb(61, 45, 53);
   ;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -109,7 +116,7 @@ text-transform: uppercase;
 span, #modal-date {
   font-family: 'Martel', serif;
   font-size: large;
-  color: #ff6d6d;
+  color: #f0ecec;
 
 }
 
